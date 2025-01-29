@@ -11,6 +11,10 @@ class AppImages {
   static const String  Line3Logo ='assets/images/line3.png';
   static const String  Line4Logo ='assets/images/line05.png';
   static const String  ButtonImage ='assets/images/biutton_image.png';
+  static const String  navButton1Image ='assets/images/home.png.png';
+  static const String  navButton2Image ='assets/images/moon.png.png';
+  static const String  navButton3Image ='assets/images/moon.png.png';
+  static const String  navButton4Image ='assets/images/ring.png.png';
 
 
 

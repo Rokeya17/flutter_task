@@ -163,7 +163,7 @@ Widget bottomNav() {
     margin: const EdgeInsets.all(12),
     borderRadius: BorderRadius.circular(8),
     width: double.maxFinite,
-    height: 68,
+    height: 82,
     padding: EdgeInsets.zero,
     child: BottomNavigationBar(
       backgroundColor: Colors.transparent,
@@ -171,13 +171,13 @@ Widget bottomNav() {
       selectedItemColor: Colors.white,
       unselectedItemColor: Colors.grey,
       type: BottomNavigationBarType.fixed,
-      items: const [
-        BottomNavigationBarItem(icon: Icon(Icons.home), label: "Home"),
-        BottomNavigationBarItem(icon: Icon(Icons.add_chart), label: "Activity"),
-        BottomNavigationBarItem(
-            icon: Icon(Icons.nightlight_outlined), label: "Sleep"),
-        BottomNavigationBarItem(
-            icon: Icon(Icons.watch_later_outlined), label: "My Ring"),
+      items: [
+        BottomNavigationBarItem(icon: Image.asset(AppImages.navButton1Image), label: "Home"),
+         BottomNavigationBarItem(icon: Image.asset(AppImages.navButton2Image), label: "Activity"),
+         BottomNavigationBarItem(
+            icon:  Image.asset(AppImages.navButton3Image), label: "Sleep"),
+         BottomNavigationBarItem(
+            icon:  Image.asset(AppImages.navButton4Image), label: "My Ring"),
       ],
     ),
   );
